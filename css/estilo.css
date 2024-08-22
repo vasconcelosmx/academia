@@ -1,0 +1,224 @@
+*{ /* o atributo * na computação quer dizer tudo ou qualquer coisa*/
+    margin: 0px;
+    padding: 0px;
+} /*quando definimos nesse comando no css definimos que estamos zerando todas as margens e as bordas*/
+
+body{
+    font-family: 'calibri',Helvetica, Arial;/*ao usarmos aspas simples estamos dizendo ao navegador que essa sera a fonte de letra principal*/
+}
+header{
+    width: 100%;
+    position: fixed;/*esse atributo deixa a div fixa na tela*/
+    
+}
+
+/*#### MENU ####*/
+
+nav{
+    background-color: #e28f2e;
+    font-size: 19px;
+    height: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+nav ul{
+    list-style-type: none; /*esse atributo retira as bolinhas da frente do texto das listas*/
+}
+
+nav ul li{
+    float: left;
+    margin-left: 15px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold; /*deixa as letras em negrito*/
+    line-height: 3.16; /*esse comando é padrão para menus e ele é um outro padrão de medida e devemos converter para pixel geralmente 1 line-height é 15px */
+}
+
+nav ul .BOTAO:hover{/*o hover é um comando que deixa o item com uma cor que definimos quando passamos o mouse em cima do item*/
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.menuimg{
+    float: left;
+    margin: 10px 20px 25px 15px;
+}
+
+#banner{
+    margin-top: 70px;
+}
+
+/*#### CONTEUDO ####*/
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    overflow-x: auto;
+}
+.textohome{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.fotoshome{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*#### FOOTER ####*/
+
+footer{
+    width: 100%;
+    background-color: #e28f2e;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*#### SOBRE ####*/
+
+.fotossobre{
+    float: left;
+    width: 20%;
+    height: 160px;
+}
+
+.textosobre{
+    float: left;
+    width: 80%;
+    text-align: justify;
+    height: 160px;
+    padding-top: 20px;
+}
+
+.fotossobredir{
+    float: right;
+    width: 20%;
+    height: 160px;
+    text-align: right;
+}
+
+.textosobredir{
+    float: right;
+    width: 80%;
+    text-align: justify;
+    height: 160px;
+    padding-top: 20px;
+}
+
+/*####CONTATO####*/
+
+#mapa{
+    padding-top: 70px;
+}
+
+#info{
+    width: 370px;
+    height: auto;
+    float: left;
+    margin: 50px 0px;
+}
+
+.formulario{
+    width: 600px;
+    float: right;
+    margin: 50px 0px;
+}
+
+.formulario label{
+    font-size: 18px;
+}
+
+.formulario div input{
+    width: 595px;
+    height: 32px;
+    font-size: 16px;
+    background-color: #fae5cc;
+    border: 1px solid #f2c085;
+}
+
+.formulario textarea{
+    width: 595px;
+    height: 80px;
+    font-size: 18px;
+    background-color: #fae5cc;
+    border: 1px solid #f2c085;
+    resize: none;/*ess atributo permite que que a caixa de mensagem altere o tamanho devemos colocar none para desativar essa função*/
+}
+
+.formulario .BOTAO{
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    float: right;
+    margin: 15px 0px 20px 15px;
+}
+
+#ENVIAR{
+    background-color: #52883f;
+    border: #8bac7f;
+    border-radius: 5px;
+}
+
+#LIMPAR{
+    background-color: red;
+    border: rgb(253, 99, 99);
+    border-radius: 5px;
+}
+
+/*#### PAGINA DE OBRIGADO ####*/
+
+.formulario h2{
+    text-align: center;
+    color: #e28f2e;
+    margin: 40px 0px;
+}
+
+/*#### GALERIA ####*/
+.titulogaleria{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.galeria{
+    text-align: center;
+    margin: 10px;
+}
+.galeria img{
+    padding: 20px;
+}
+
+@media screen and (max-width: 800px){
+    nav{
+        width: 100%;
+    }
+
+    #banner{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    .conteudo
+
+    .galeria .galeria img{
+        width: 100%;
+
+    }
+    nav ul{
+        width: 100%;
+    }
+}
+
